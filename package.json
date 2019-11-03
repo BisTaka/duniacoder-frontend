@@ -1,0 +1,15 @@
+{
+  "name": "duniacoder",
+  "version": "0.1.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bismantaka Aldila",
+  "license": "MIT",
+  "dependencies": {
+    "bulma": "^0.8.0",
+    "cowsay-browser": "^1.1.8"
+  }
+}

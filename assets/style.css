@@ -1,0 +1,92 @@
+.gradient{
+    font-size: 45px;
+    background: linear-gradient( 135deg, #43CBFF 10%, #9708CC 100%);
+    background-size: 600% 600%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    -webkit-animation: TextIntro 10s ease infinite;
+    -moz-animation: TextIntro 10s ease infinite;
+    -o-animation: TextIntro 10s ease infinite;
+    animation: TextIntro 10s ease infinite;
+
+    
+    
+}
+
+@-webkit-keyframes TextIntro {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes TextIntro {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes TextIntro {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes TextIntro {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.button1{
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border:0.1em solid #000000;
+    margin:0 0.3em 0.3em 0;
+    border-radius:2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color: #000000;
+    text-align:center;
+    transition: all 0.2s;
+    }
+
+    .button1:hover{
+    color:#FFFFFF;
+    background: linear-gradient( 135deg, #43CBFF 10%, rgb(156, 76, 187) 100%);
+    background-size: 600% 600%;
+    border:0.1em solid #ffffff;
+
+    -webkit-animation: ButtonKenal 3s ease infinite;
+    -moz-animation: ButtonKenal 3s ease infinite;
+    -o-animation: ButtonKenal 3s ease infinite;
+    animation: ButtonKenal 3s ease infinite;
+    }
+    @media all and (max-width:30em){
+     button1{
+        display:block;
+        margin:0.4em auto;
+    }
+} 
+
+
+@-webkit-keyframes ButtonKenal {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes ButtonKenal {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes ButtonKenal {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes ButtonKenal {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
