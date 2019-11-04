@@ -63,7 +63,7 @@
     animation: ButtonKenal 3s ease infinite;
     }
     @media all and (max-width:30em){
-     button1{
+     .button1{
         display:block;
         margin:0.4em auto;
     }
