@@ -11,7 +11,7 @@ let cuk = $('#Intro').click(function () {
     $(this).addClass('gradient', 1000)
     $('#Hero').removeClass('is-dark')
     $('#Hero').addClass('is-white', 2000)
-    $('#Hero').attr('style', 'background-image: url("assets/wallpaper.png");')
+    $('#Hero').attr('style', 'background-image: url("https://web.whatsapp.com/img/bg-chat-tile_8a055527b27b887521a9f084497d8879.png");')
     $('#Sub').show()
     $('#Button-kenal').fadeIn(5000)
 })
