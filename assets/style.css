@@ -63,7 +63,7 @@
     animation: ButtonKenal 3s ease infinite;
     }
     @media all and (max-width:30em){
-     .button1{
+    .button1{
         display:block;
         margin:0.4em auto;
     }
@@ -89,4 +89,48 @@
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
+}
+
+.bg-custom{
+    background:url('https://web.whatsapp.com/img/bg-chat-tile_8a055527b27b887521a9f084497d8879.png');
+    -webkit-animation:100s scroll infinite linear;
+    -moz-animation:100s scroll infinite linear;
+    -o-animation:100s scroll infinite linear;
+    -ms-animation:100s scroll infinite linear;
+    animation:100s scroll infinite linear;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+
+@-webkit-keyframes scroll{
+    100%{
+        background-position:0px -3000px;
+    }
+}
+
+@-moz-keyframes scroll{
+    100%{
+    background-position:0px -3000px;
+    }
+}
+
+
+@-o-keyframes scroll{
+    100%{
+    background-position:0px -3000px;
+    }
+}
+
+@-ms-keyframes scroll{
+    100%{
+    background-position:0px -3000px;
+    }
+}
+
+@keyframes scroll{
+    100%{
+    background-position:0px -3000px;
+    }
 }
